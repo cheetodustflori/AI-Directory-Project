@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+            margin: 0;
+			padding: 0;
+            position: relative;
+            min-height: 100vh;
+            background-color: #ffffff; 
+        }
+		header {
+            background-color: #aec9fd; /* Cornflower Blue header background color */
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+		}
+
+		  /* Add some padding to the content to prevent it from being hidden behind the fixed header */
+		  main {
+            padding-top: 5px;
+            text-align: left;
+        }
+        
+
+        h1 {
+            text-align: left;
+            padding-left: 40px;
+            color: #ffffff; /* Dark text color */
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-decoration: underline;
+            font-size: 22px;
+        }
+        
+        section {
+            padding: 40px;
+            display: inline-block; 
+            box-sizing: border-box;
+            margin-bottom: 100px;
+        }
+        h2 {
+            color: #a4b7db; /* Cornflower Blue heading color */
+        }
+
+        section:nth-child(1) h2 {
+            color: #8458a3;
+        }
+
+        section:nth-child(2) h2 {
+            color: #ac8fcf;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #d4d4d4; 
+            font-weight: bold;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            display: block;
+            border-radius: 8px; /* Add border-radius for rounded corners */
+            
+        }
+
+
+        .two-columns {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .image-container {
+            flex-shrink: 0;
+        }
+
+        .text-container {
+            flex-grow: 1;
+            padding-left: 20px;
+            max-width: 60%;
+        }
+
+        .lorem-ipsum {
+            max-width: 100%;
+        }
+
+
+
+        footer p {
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #aec9fd;
+            padding: 10px;
+            text-align:0 center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+
+
+
+<body>
+	<header>
+		<h1><i class="fas fa-cube icon"></i>Student AI Hub</h1>
+        <nav>
+            <a href="./">Home</a> 
+            <a href="/about">About Us</a>
+            <a href="/something" target="_blank">Go Somewhere</a>
+        </nav>
+			
+	</header>
+
+
+    <main>
+        
+    <h1 style="color:#6e87a1">About Us</h1>
+    <div class = "two-columns">
+        <div class="content-container">
+            <section>
+                <h2>FLORIANNE CHE</h2>
+                <p style="font-weight: bold;">STUDENT.ZIM.GIR.</p>
+                <p>This is an awesome bio about us that<br>
+                shows we know how to write things.</p>
+                <div class = "image-container">
+                    <img src="https://picsum.photos/800/400" alt="Placeholder Image 12">
+                </div>
+            </section>
+
+    <section>
+        <h2> RACHAEL CHEN</h2>
+        <div class="content-container"></div>
+            <p style="font-weight: bold;">STUDENT.BERK.</p>
+            <p>This is an awesome bio about us that<br>
+            shows we know how to write things.</p>
+            <div class = "image-container">
+                <img src="https://picsum.photos/800/400" alt="Placeholder Image 12">
+        </div>
+    </section>
+      
+    <section>
+        <div class="text-container">
+        <h1 style="font-weight: bold; color:#6e87a1">
+            WHY DO WE THINK THE STUDENT AI HUB MATTERS?
+        </h1>
+
+        <p class = "lorem-ipsum"> 
+            Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry. Lorem Ipsum has been 
+            the industry's standard dummy text ever since the 1500s. 
+        </p>
+
+        <h1 style="font-weight: bold;color:#6e87a1">
+            OUR CS BACKGROUND!
+        </h1>
+
+        <p class = "lorem-ipsum">
+            Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry. Lorem Ipsum has been 
+            the industry's standard dummy text ever since the 1500s. 
+        </p>
+
+        <h1 style="font-weight: bold;color:#6e87a1">
+            CONTACT US!
+        </h1>
+        
+        </div>
+    </section>
+    </div>
+    </div>
+
+    </main>
+
+<footer>
+    <p>&copy; 2023 CheN Directory. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

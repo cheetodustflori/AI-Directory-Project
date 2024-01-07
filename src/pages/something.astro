@@ -1,0 +1,149 @@
+<a href="./index.astro">Go back to Home Page</a>
+<h2>hello</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+			padding: 0;
+            position: relative;
+            min-height: 100vh;
+            background-color: #ffffff; /* Pastel background color */
+        }
+		header {
+            background-color: #aec9fd; /* Cornflower Blue header background color */
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        
+		
+		}
+
+		  /* Add some padding to the content to prevent it from being hidden behind the fixed header */
+		  main {
+            padding-top: 70px;
+            text-align: center;
+        }
+        
+
+        h1 {
+            text-align: left;
+            padding-left: 20px;
+            color: #ffffff; /* Dark text color */
+        }
+        section {
+            padding: 20px;
+            display: inline-block; 
+            box-sizing: border-box;
+        }
+        h2 {
+            color: #a4b7db; /* Cornflower Blue heading color */
+        }
+
+        section:nth-child(1) h2 {
+            color: #dabcef;
+        }
+
+        section:nth-child(2) h2 {
+            color: #e3b3b3;
+        }
+
+        section:nth-child(3) h2 {
+            color: #a5dec7;
+        }
+
+        section:nth-child(4) h2 {
+            color: #e5d2a4;
+        }
+
+        section:nth-child(5) h2 {
+            color: #92c4d8;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 10px;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #d4d4d4; /* Cornflower Blue link color */
+            font-weight: bold;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+
+        img {
+            width: 200px;
+            height: 125px;
+            display: block;
+            margin: 10px auto; /* Center image with margin */
+            border-radius: 8px; /* Add border-radius for rounded corners */
+        }
+
+        footer p {
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #aec9fd;
+            padding: 10px;
+            text-align:0 center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    
+	<header>
+		<h1><i class="fas fa-cube icon"></i>Student AI Hub</h1>
+        <nav>
+            <a href="./">Home</a> 
+            <a href="/about">About Us</a>
+            <a href="/something">Go Somewhere</a>
+        </nav>
+	</header>
+
+    <main>
+
+        <p>This is ANOTHER page.</p>
+        <a href="./">Go back to Home Page</a>
+	
+
+    </main>
+
+<footer>
+    <p>&copy; 2023 CheN Directory. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
