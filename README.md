@@ -1,3 +1,3 @@
-### 🌿. ⋆⸜ 🍵✮ STUDENT AI DIRECTORY WEBSITE
+### ‧₊˚🖇️✩ ₊˚🎧⊹♡ STUDENT AI DIRECTORY WEBSITE
 
 ![Header](./AI.png)
